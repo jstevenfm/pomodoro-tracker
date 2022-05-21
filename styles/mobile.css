@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Comfortaa', cursive;
+}
+body {
+    background-color: #EA7975;
+    color: #fff;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar {
+    min-width: 316px;
+    width: 98%;
+    height: 32px;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: flex;
+    margin: 4px auto;
+    padding: 8px 12px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    justify-content: space-between;
+}
+.navbar--branding {
+    display: flex;
+}
+.navbar--logo {
+    width: 16px;
+    height: 16px;
+}
+.navbar--tittle {
+    font-size: 1.3rem;
+    margin-left: 12px;
+    padding-top: 1px;
+}
+.navbar--settings {
+    width: 16px;
+    height: 16px;
+    justify-self: flex-end;
+}
