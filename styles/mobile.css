@@ -1,3 +1,7 @@
+:root {
+    --color-base: rgba(255, 255, 255, 0.3);
+    --pomodoro: #EA7975;
+}
 * {
     box-sizing: border-box;
     margin: 0;
@@ -8,19 +12,22 @@ html {
     font-family: 'Comfortaa', cursive;
 }
 body {
-    background-color: #EA7975;
+    background-color: var(--pomodoro);
     color: #fff;
 }
 a {
     text-decoration: none;
     color: #fff;
 }
+ul {
+    list-style: none;
+}
 
 .navbar {
     min-width: 316px;
     width: 98%;
     height: 48px;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: var(--color-base);
     display: flex;
     margin: 4px auto;
     padding: 12px;
@@ -39,12 +46,52 @@ a {
     height: 24px;
 }
 .navbar--tittle {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    font-weight: 700;
     margin-left: 8px;
-    padding-top: 3px;
+    padding-top: 5px;
 }
 .navbar--settings {
     width: 24px;
     height: 24px;
     justify-self: flex-end;
+}
+
+.timekeeper {
+    width: 294px;
+    height: 300px;
+    padding: 20px;
+    background-color: var(--color-base);
+    margin: 60px auto;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.timekeeper--modes {
+    margin: 8px auto;
+}
+.timekeeper--selection-modes {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.timekeeper--selection-modes a:focus {
+    background-color: var(--pomodoro);
+    padding: 8px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+footer {
+    width: 100vw;
+    height: 50px;
+    background-color: rgba(1, 1, 1, 0.3);
+    position: absolute;
+    bottom: 0;
 }
