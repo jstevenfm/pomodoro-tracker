@@ -25,7 +25,7 @@ ul {
 
 .navbar {
     min-width: 316px;
-    width: 98%;
+    width: 98vw;
     height: 48px;
     background-color: var(--color-base);
     display: flex;
@@ -58,7 +58,10 @@ ul {
 }
 
 .timekeeper {
-    width: 294px;
+    /* width: 294px; */
+    min-width: 294px;
+    width: 90vw;
+    max-width: 500px;
     height: 300px;
     padding: 20px;
     background-color: var(--color-base);
