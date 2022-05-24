@@ -19,11 +19,11 @@ a {
 .navbar {
     min-width: 316px;
     width: 98%;
-    height: 40px;
+    height: 48px;
     background-color: rgba(255, 255, 255, 0.3);
     display: flex;
     margin: 4px auto;
-    padding: 10px;
+    padding: 12px;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -35,16 +35,16 @@ a {
     display: flex;
 }
 .navbar--logo {
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
 }
 .navbar--tittle {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin-left: 8px;
     padding-top: 3px;
 }
 .navbar--settings {
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
     justify-self: flex-end;
 }
